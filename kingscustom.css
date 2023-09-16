@@ -2505,6 +2505,7 @@ input::-webkit-date-and-time-value {
     justify-content: space-between;
     font-weight: normal;
     margin-bottom: 24px;
+    display: none;
 }
 
 .mpp-innerpage--datetime-wrapper h2 {
