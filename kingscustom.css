@@ -2509,6 +2509,7 @@ input::-webkit-date-and-time-value {
 
 .mpp-innerpage--datetime-wrapper h2 {
     margin-bottom: 0;
+    display: none;
 }
 
 .mpp-innerpage--progress {
