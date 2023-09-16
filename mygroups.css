@@ -740,7 +740,7 @@
     -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
     max-height: fit-content;
-    overflow: visible;
+    overflow: scroll;
     font-weight: normal;
 }
 
