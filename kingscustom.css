@@ -640,7 +640,7 @@
 
 /* Header */
 .mpp-card--header {
-    background: var(--card-headerBgColor);
+    background: #4a95ec;
     color: #fff;
     position: relative;
     display: flex;
