@@ -16,7 +16,7 @@
     --form-btn-primary-bgcolor: #21c0ed;
     --form-btn-primary-hover: #212427;
     --form-btn-primary-active: #21c0ed;
-    --form-btn-secondary-text: #384249;
+    --form-btn-secondary-text: #212427;
     --form-btn-secondary-bgcolor: #fff;
     --form-btn-secondary-hover: #f6f7f9;
     --form-btn-secondary-active: #ededed;
@@ -601,7 +601,7 @@
 /* Card                                       */
 /*--------------------------------------------*/
 :host {
-    --card-textColor: #384249;
+    --card-textColor: #212427;
     --card-borderRadius: 4px;
     --card-boxShadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
     --card-primaryColor: #21c0ed;
@@ -2352,7 +2352,7 @@ input::-webkit-date-and-time-value {
 /*--------------------------------------------*/
 :host {
     --innerPage-bgColor: #212427;
-    --innerPage-textColor: #384249;
+    --innerPage-textColor: #212427;
     --innerPage-fontSize: 18px;
     --innerPage-lineHeight: 34px;
     --innerPage-primaryColor: #21c0ed;
@@ -2994,7 +2994,7 @@ table.mppw-invoice tfoot #totalDueLabel, .mppw-invoice-summary-label {
 }
 
 .mppw-login--list-item a {
-    color: #384249;
+    color: #212427;
     cursor: pointer;
     display: block;
     padding: 8px 16px;
