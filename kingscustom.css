@@ -20,7 +20,7 @@
     --form-btn-secondary-bgcolor: #fff;
     --form-btn-secondary-hover: #f6f7f9;
     --form-btn-secondary-active: #ededed;
-    --form-btn-disabled: #657783;
+    --form-btn-disabled: #212427;
     --card-bgcolor: #fff;
     --card-title-color: #212427;
     --card-header-bgcolor: #6c757d;
@@ -618,8 +618,8 @@
     --card-progressBarActiveColor: linear-gradient(90deg, #21c0ed 0%, #1fb5ac 100%);
     --card-progressBarRemainingColor: #efefef;
     --card-progressBarCompleteColor: #77be43;
-    --card-imageBgColor: #657783;
-    --card-checkboxDefaultColor: #657783;
+    --card-imageBgColor: #212427;
+    --card-checkboxDefaultColor: #212427;
     --card-labelBgColor: #efefef;
 }
 
@@ -1214,7 +1214,7 @@
 /* Form                                       */
 /*--------------------------------------------*/
 :host {
-    --form-field-color: #657783;
+    --form-field-color: #212427;
     --form-field-fontFamily: Arial, Helvetica, sans-serif;
     --form-field-margin: .45rem;
     --form-field-borderradius: 4px;
@@ -2052,7 +2052,7 @@ input::-webkit-date-and-time-value {
 }
 
 .mpp-household .mpp-card--household-placeholder {
-    background: #657783;
+    background: #212427;
     border-radius: 50%;
     margin-right: 16px;
     min-width: 80px;
@@ -2351,7 +2351,7 @@ input::-webkit-date-and-time-value {
 /* Inner Page Details                         */
 /*--------------------------------------------*/
 :host {
-    --innerPage-bgColor: #657783;
+    --innerPage-bgColor: #212427;
     --innerPage-textColor: #384249;
     --innerPage-fontSize: 18px;
     --innerPage-lineHeight: 34px;
@@ -2365,7 +2365,7 @@ input::-webkit-date-and-time-value {
     --innerPage-h2lineHeight: 34px;
     --innerPage-h3fontSize: 20px;
     --innerPage-h3lineHeight: 28px;
-    --innerPage-h3color: #657783;
+    --innerPage-h3color: #212427;
     --innerPage-h4fontSize: 18px;
     --innerPage-h4lineHeight: 24px;
     --innerPage-dateTimeFontSize: 28px;
@@ -2381,7 +2381,7 @@ input::-webkit-date-and-time-value {
     --innerPage-linkColor: #212427;
     --innerPage-linkHoverColor: #212427;
     --innerPage-linkActiveColor: #21c0ed;
-    --innerPage-imageBgColor: #657783;
+    --innerPage-imageBgColor: #212427;
     --innerPage-mapBgColor: #efefef;
 }
 
@@ -2915,7 +2915,7 @@ table.mppw-invoice tfoot #totalDueLabel, .mppw-invoice-summary-label {
 /* Login                                      */
 /*--------------------------------------------*/
 :host {
-    --component-bgColor: #657783;
+    --component-bgColor: #212427;
 }
 
 .mppw-login {
@@ -3715,7 +3715,7 @@ select:focus + .focus {
 }
 
 .mpp-online-directory .mpp-card--online-directory-placeholder {
-    background: #657783;
+    background: #212427;
     margin-right: 16px;
     border-radius: 50%;
     min-width: 80px;
@@ -3796,7 +3796,7 @@ select:focus + .focus {
     }
 
     .mpp-online-directory .mpp-card--online-directory-placeholder {
-        background: #657783;
+        background: #212427;
         margin-right: 5px;
         border-radius: 50%;
         min-width: 50px;
@@ -4080,7 +4080,7 @@ select:focus + .focus {
 }
 
 .mpp-planyourvisit .mpp-card--planyourvisit-image {
-    background: #657783;
+    background: #212427;
     border-radius: 50%;
     margin-right: 16px;
     width: 80px;
