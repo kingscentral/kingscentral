@@ -2,20 +2,20 @@
 /* CSS Color Variables                        */
 /*--------------------------------------------*/
 :host {
-    --root-text-color: #565656;
+    --root-text-color: #656565;
     --root-font-size: 14px;
     --root-line-height: 24px;
-    --primary: #2196f3;
+    --primary: #21c0ed;
     --secondary: #88a0af;
     --form-field-bgcolor: #f9f9f9;
     --form-field-border: #b4c5cf;
-    --form-field-border--active: #2196f3;
+    --form-field-border--active: #21c0ed;
     --form-valid: #42bc34;
     --form-invalid: #dc3545;
     --form-btn-primary-text: #fff;
-    --form-btn-primary-bgcolor: #4398c7;
-    --form-btn-primary-hover: #4684ca;
-    --form-btn-primary-active: #4273aa;
+    --form-btn-primary-bgcolor: #21c0ed;
+    --form-btn-primary-hover: #656565;
+    --form-btn-primary-active: #21c0ed;
     --form-btn-secondary-text: #384249;
     --form-btn-secondary-bgcolor: #fff;
     --form-btn-secondary-hover: #f6f7f9;
@@ -25,7 +25,7 @@
     --card-title-color: #696969;
     --card-header-bgcolor: #6c757d;
     --box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
-    --progress-pledged: #1b88b0;
+    --progress-pledged: #21c0ed;
     --progress-received: #000;
 }
 
@@ -604,7 +604,7 @@
     --card-textColor: #384249;
     --card-borderRadius: 4px;
     --card-boxShadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
-    --card-primaryColor: #4398c7;
+    --card-primaryColor: #21c0ed;
     --card-badgeBgColor: var(--card-textColor);
     --card-headerBgColor: #666;
     --card-badgeStatusActiveColor: var(--card-primaryColor);
@@ -614,8 +614,8 @@
     --card-fontSize: 14px;
     --card-fontSizeHeader: 18px;
     --card-lineHeight: 24px;
-    --card-progressBarColor: #1b88b0;
-    --card-progressBarActiveColor: linear-gradient(90deg, #1b88b0 0%, #1fb5ac 100%);
+    --card-progressBarColor: #21c0ed;
+    --card-progressBarActiveColor: linear-gradient(90deg, #21c0ed 0%, #1fb5ac 100%);
     --card-progressBarRemainingColor: #efefef;
     --card-progressBarCompleteColor: #77be43;
     --card-imageBgColor: #657783;
@@ -640,7 +640,7 @@
 
 /* Header */
 .mpp-card--header {
-    background: #4398c7;
+    background: #21c0ed;
     color: #fff;
     position: relative;
     display: flex;
@@ -1606,7 +1606,7 @@ select.mppw-form-field__control,
 }
 
 .toggle--input:checked + .toggle--label {
-    background: #4398c7;
+    background: #21c0ed;
 }
 
 .toggle--input + .toggle--label {
@@ -1653,7 +1653,7 @@ select.mppw-form-field__control,
 }
 
 .toggle--btn {
-    background: #4398c7;
+    background: #21c0ed;
     border-radius: 4px;
     border: 0;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
@@ -1674,7 +1674,7 @@ select.mppw-form-field__control,
 
     .toggle--btn:hover,
     .toggle--btn.selected {
-        background: #4684ca;
+        background: #656565;
     }
 
 /* Form Row */
@@ -2004,7 +2004,7 @@ input::-webkit-date-and-time-value {
 }
 
 .mpp-household .mpp-household--header-wrapper {
-    color: #4398c7;
+    color: #21c0ed;
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -2013,11 +2013,11 @@ input::-webkit-date-and-time-value {
 
     .mpp-household .mpp-household--header-wrapper:hover,
     .mpp-household .mpp-household--header-wrapper:focus {
-        color: #4684ca;
+        color: #656565;
     }
 
     .mpp-household .mpp-household--header-wrapper:active {
-        color: #4273aa;
+        color: #21c0ed;
     }
 
     .mpp-household .mpp-household--header-wrapper[disabled] {
@@ -2355,7 +2355,7 @@ input::-webkit-date-and-time-value {
     --innerPage-textColor: #384249;
     --innerPage-fontSize: 18px;
     --innerPage-lineHeight: 34px;
-    --innerPage-primaryColor: #4398c7;
+    --innerPage-primaryColor: #21c0ed;
     --innerPage-boxShadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
     --innerPage-borderRadius: 4px;
     /* headers */
@@ -2370,17 +2370,17 @@ input::-webkit-date-and-time-value {
     --innerPage-h4lineHeight: 24px;
     --innerPage-dateTimeFontSize: 28px;
     --innerPage-buttonBgColor: var(--innerPage-primaryColor);
-    --innerPage-buttonHoverBgColor: #4684ca;
-    --innerPage-buttonActiveBgColor: #4273aa;
-    --innerPage-progressBarColor: #1b88b0;
-    --innerPage-progressBarActiveColor: linear-gradient(90deg, #1b88b0 0%, #1fb5ac 100%);
+    --innerPage-buttonHoverBgColor: #656565;
+    --innerPage-buttonActiveBgColor: #21c0ed;
+    --innerPage-progressBarColor: #21c0ed;
+    --innerPage-progressBarActiveColor: linear-gradient(90deg, #21c0ed 0%, #1fb5ac 100%);
     --innerPage-progressBarRemainingColor: #efefef;
     --innerPage-progressBarCompleteColor: #77be43;
     --innerPage-labelBgColor: #efefef;
     --innerPage-labelBgHoverColor: #e5e5e5;
-    --innerPage-linkColor: #4684ca;
-    --innerPage-linkHoverColor: #4684ca;
-    --innerPage-linkActiveColor: #4273aa;
+    --innerPage-linkColor: #656565;
+    --innerPage-linkHoverColor: #656565;
+    --innerPage-linkActiveColor: #21c0ed;
     --innerPage-imageBgColor: #657783;
     --innerPage-mapBgColor: #efefef;
 }
@@ -2923,7 +2923,7 @@ table.mppw-invoice tfoot #totalDueLabel, .mppw-invoice-summary-label {
 }
 
 .mppw-login--container {
-    color: #4398c7;
+    color: #21c0ed;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -2941,15 +2941,15 @@ table.mppw-invoice tfoot #totalDueLabel, .mppw-invoice-summary-label {
 
     .mppw-login--container:hover,
     .mppw-login--container:focus {
-        color: #4684ca;
+        color: #656565;
     }
 
     .mppw-login--container:active {
-        color: #4273aa;
+        color: #21c0ed;
     }
 
 .mppw-loggedout--username {
-    color: #4398c7;
+    color: #21c0ed;
     display: inline-flex;
     align-items: center;
     justify-content: flex-end;
@@ -2957,11 +2957,11 @@ table.mppw-invoice tfoot #totalDueLabel, .mppw-invoice-summary-label {
 
     .mppw-loggedout--username:hover,
     .mppw-loggedout--username:focus {
-        color: #4684ca;
+        color: #656565;
     }
 
     .mppw-loggedout--username:active {
-        color: #4273aa;
+        color: #21c0ed;
     }
 
 .mppw-login .mppw-icon-unlock,
@@ -3004,13 +3004,13 @@ table.mppw-invoice tfoot #totalDueLabel, .mppw-invoice-summary-label {
     .mppw-login--list-item a:hover,
     .mppw-login--list-item a:focus {
         background: #f6f7f9;
-        color: #4398c7;
+        color: #21c0ed;
         text-decoration: underline;
     }
 
     .mppw-login--list-item a:active {
         background: #ededed;
-        color: #4273aa;
+        color: #21c0ed;
     }
 
 /* TABLET */
@@ -3376,7 +3376,7 @@ select:focus + .focus {
     border: 1px solid lightgray;
     border-top: none;
     text-align: center;
-    color: #2196f3;
+    color: #21c0ed;
     cursor: pointer;
     font-weight: bold;
     margin-top: 5px;
@@ -3503,7 +3503,7 @@ select:focus + .focus {
 
     .total-giving-row span:last-child {
         font-size: 25px;
-        color: #4684ca;
+        color: #656565;
         margin-left: 10px;
     }
 
@@ -3662,7 +3662,7 @@ select:focus + .focus {
 }
 
 .mpp-online-directory .mpp-online-directory--header-wrapper {
-    color: #4398c7;
+    color: #21c0ed;
     font-weight: bold;
     display: block;
     align-items: center;
@@ -3672,11 +3672,11 @@ select:focus + .focus {
 
     .mpp-online-directory .mpp-online-directory--header-wrapper:hover,
     .mpp-online-directory .mpp-online-directory--header-wrapper:focus {
-        color: #4684ca;
+        color: #656565;
     }
 
     .mpp-online-directory .mpp-online-directory--header-wrapper:active {
-        color: #4273aa;
+        color: #21c0ed;
     }
 
     .mpp-online-directory .mpp-online-directory--header-wrapper[disabled] {
@@ -4041,7 +4041,7 @@ select:focus + .focus {
 }
 
 .mpp-planyourvisit .mpp-planyourvisit--header-wrapper {
-    color: #4398c7;
+    color: #21c0ed;
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -4050,11 +4050,11 @@ select:focus + .focus {
 
     .mpp-planyourvisit .mpp-planyourvisit--header-wrapper:hover,
     .mpp-planyourvisit .mpp-planyourvisit--header-wrapper:focus {
-        color: #4684ca;
+        color: #656565;
     }
 
     .mpp-planyourvisit .mpp-planyourvisit--header-wrapper:active {
-        color: #4273aa;
+        color: #21c0ed;
     }
 
     .mpp-planyourvisit .mpp-planyourvisit--header-wrapper[disabled] {
@@ -4680,7 +4680,7 @@ select:focus + .focus {
 
     /* primary hover */
     .style-guide .grid--col .buttons--container .mppw-btn:nth-child(4) {
-        background: #4684ca;
+        background: #656565;
     }
 
     /* secondary active/focus */
@@ -4690,7 +4690,7 @@ select:focus + .focus {
 
     /* primary active/focus */
     .style-guide .grid--col .buttons--container .mppw-btn:nth-child(6) {
-        background: #4273aa;
+        background: #21c0ed;
     }
 .mpp-subscriptions--subheader {
     display: flex;
@@ -4725,14 +4725,14 @@ select:focus + .focus {
 }
 
 .mpp-subscriptions--subheader .mpp-subscriptions--sortable {
-    color: #4398c7;
+    color: #21c0ed;
     cursor: pointer;
     text-decoration: underline;
 }
 
     .mpp-subscriptions--subheader .mpp-subscriptions--sortable:hover,
     .mpp-subscriptions--subheader .mpp-subscriptions--sortable:focus {
-        color: #4684ca;
+        color: #656565;
     }
 
 .mpp-subscriptions--description {
