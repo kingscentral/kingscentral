@@ -2,7 +2,7 @@
 /* CSS Color Variables                        */
 /*--------------------------------------------*/
 :host {
-    --root-text-color: #656565;
+    --root-text-color: #212427;
     --root-font-size: 14px;
     --root-line-height: 24px;
     --primary: #21c0ed;
@@ -14,7 +14,7 @@
     --form-invalid: #dc3545;
     --form-btn-primary-text: #fff;
     --form-btn-primary-bgcolor: #21c0ed;
-    --form-btn-primary-hover: #656565;
+    --form-btn-primary-hover: #212427;
     --form-btn-primary-active: #21c0ed;
     --form-btn-secondary-text: #384249;
     --form-btn-secondary-bgcolor: #fff;
@@ -22,7 +22,7 @@
     --form-btn-secondary-active: #ededed;
     --form-btn-disabled: #657783;
     --card-bgcolor: #fff;
-    --card-title-color: #696969;
+    --card-title-color: #212427;
     --card-header-bgcolor: #6c757d;
     --box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
     --progress-pledged: #21c0ed;
@@ -1674,7 +1674,7 @@ select.mppw-form-field__control,
 
     .toggle--btn:hover,
     .toggle--btn.selected {
-        background: #656565;
+        background: #212427;
     }
 
 /* Form Row */
@@ -2013,7 +2013,7 @@ input::-webkit-date-and-time-value {
 
     .mpp-household .mpp-household--header-wrapper:hover,
     .mpp-household .mpp-household--header-wrapper:focus {
-        color: #656565;
+        color: #212427;
     }
 
     .mpp-household .mpp-household--header-wrapper:active {
@@ -2370,7 +2370,7 @@ input::-webkit-date-and-time-value {
     --innerPage-h4lineHeight: 24px;
     --innerPage-dateTimeFontSize: 28px;
     --innerPage-buttonBgColor: var(--innerPage-primaryColor);
-    --innerPage-buttonHoverBgColor: #656565;
+    --innerPage-buttonHoverBgColor: #212427;
     --innerPage-buttonActiveBgColor: #21c0ed;
     --innerPage-progressBarColor: #21c0ed;
     --innerPage-progressBarActiveColor: linear-gradient(90deg, #21c0ed 0%, #1fb5ac 100%);
@@ -2378,8 +2378,8 @@ input::-webkit-date-and-time-value {
     --innerPage-progressBarCompleteColor: #77be43;
     --innerPage-labelBgColor: #efefef;
     --innerPage-labelBgHoverColor: #e5e5e5;
-    --innerPage-linkColor: #656565;
-    --innerPage-linkHoverColor: #656565;
+    --innerPage-linkColor: #212427;
+    --innerPage-linkHoverColor: #212427;
     --innerPage-linkActiveColor: #21c0ed;
     --innerPage-imageBgColor: #657783;
     --innerPage-mapBgColor: #efefef;
@@ -2941,7 +2941,7 @@ table.mppw-invoice tfoot #totalDueLabel, .mppw-invoice-summary-label {
 
     .mppw-login--container:hover,
     .mppw-login--container:focus {
-        color: #656565;
+        color: #212427;
     }
 
     .mppw-login--container:active {
@@ -2957,7 +2957,7 @@ table.mppw-invoice tfoot #totalDueLabel, .mppw-invoice-summary-label {
 
     .mppw-loggedout--username:hover,
     .mppw-loggedout--username:focus {
-        color: #656565;
+        color: #212427;
     }
 
     .mppw-loggedout--username:active {
@@ -3503,7 +3503,7 @@ select:focus + .focus {
 
     .total-giving-row span:last-child {
         font-size: 25px;
-        color: #656565;
+        color: #212427;
         margin-left: 10px;
     }
 
@@ -3672,7 +3672,7 @@ select:focus + .focus {
 
     .mpp-online-directory .mpp-online-directory--header-wrapper:hover,
     .mpp-online-directory .mpp-online-directory--header-wrapper:focus {
-        color: #656565;
+        color: #212427;
     }
 
     .mpp-online-directory .mpp-online-directory--header-wrapper:active {
@@ -4050,7 +4050,7 @@ select:focus + .focus {
 
     .mpp-planyourvisit .mpp-planyourvisit--header-wrapper:hover,
     .mpp-planyourvisit .mpp-planyourvisit--header-wrapper:focus {
-        color: #656565;
+        color: #212427;
     }
 
     .mpp-planyourvisit .mpp-planyourvisit--header-wrapper:active {
@@ -4680,7 +4680,7 @@ select:focus + .focus {
 
     /* primary hover */
     .style-guide .grid--col .buttons--container .mppw-btn:nth-child(4) {
-        background: #656565;
+        background: #212427;
     }
 
     /* secondary active/focus */
@@ -4732,7 +4732,7 @@ select:focus + .focus {
 
     .mpp-subscriptions--subheader .mpp-subscriptions--sortable:hover,
     .mpp-subscriptions--subheader .mpp-subscriptions--sortable:focus {
-        color: #656565;
+        color: #212427;
     }
 
 .mpp-subscriptions--description {
