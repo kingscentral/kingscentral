@@ -255,4 +255,11 @@ background-color: #212427;
     /* Styles for the debug details ellipsis in the footer at the bottom of the page */
 }
 
+/* Hide other Sign In options */
+
+.promoted-fed-cred-content
+{
+    display: none !important;
+}
+
 
