@@ -51,11 +51,13 @@ color: #212427;
 
 .ext-header
 {
+height: 100px;
     /* Styles for the header at the top of the page */
 }
 
 .ext-header-logo
 {
+height: 85px;
     /* Styles for the header logo at the top of the page */
 }
 
