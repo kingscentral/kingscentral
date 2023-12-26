@@ -52,14 +52,14 @@ color: #212427;
 
 .ext-header
 {
-    height: 150px;
+    max-height: 150px;
     /* Styles for the header at the top of the page */
 }
 
 .ext-header-logo
 {
-    width: 578px;
-    height: 85px;
+    max-width: 578px;
+    max-height: 85px;
     /* Styles for the header logo at the top of the page */
 }
 
@@ -188,7 +188,7 @@ background-color: #212427;
 .ext-button.ext-secondary
 {
 color: white;
-background-color: #1b72a8;
+background-color: #656565;
     /* Styles for secondary buttons */
     /* Blue */
 }
@@ -204,20 +204,22 @@ background-color: #212427;
 .ext-button.ext-secondary:focus
 {
 color: white;
-background-color: #1b72a8;
+background-color: #656565;
     /* Styles for secondary buttons when the button has focus */
      /* keep the same as secondary buttons styles*/
 }
 
 .ext-button.ext-secondary:focus:hover
 {
+color: #21c0ed;
+background-color: #212427;
     /* Styles for secondary buttons when the button has focus and the mouse is over the button */
      /* keep the same as secondary buttons styles*/
 }
 
 .ext-button.ext-secondary:active
 {
-color: #21c0ed;
+color: #656565;
 background-color: #212427;
     /* Styles for secondary buttons when the button is being clicked */
 }
@@ -229,6 +231,7 @@ background-color: #212427;
 
 .ext-promoted-fed-cred-box
 {
+    display: none !important;
     /* Styles for sign-in options text box */
 }
 
@@ -256,12 +259,4 @@ background-color: #212427;
 {
     /* Styles for the debug details ellipsis in the footer at the bottom of the page */
 }
-
-/* Hide other Sign In options */
-
-.promoted-fed-cred-content
-{
-    display: none !important;
-}
-
 
