@@ -11,26 +11,31 @@ body
 a,
 a:link
 {
+color: #1b72a8;
     /* Styles for links */
 }
 
 a:hover
 {
+color: #212427;
     /* Styles for links when the mouse is over the link */
 }
 
 a:focus
 {
+color: #1b72a8;
     /* Styles for links when the link has focus */
 }
 
 a:focus:hover
 {
+color: #212427;
     /* Styles for links when the link has focus and the mouse is over the link */
 }
 
 a:active
 {
+color: #212427;
     /* Styles for links when the link is being clicked */
 }
 
@@ -135,50 +140,67 @@ a:active
 }
 .ext-button-item
 {
+color: white;
 background-color: #1b72a8;
     /* Styles for the button items */
 }
 
 .ext-button.ext-primary
 {
+color: white;
+background-color: #1b72a8;
     /* Styles for primary buttons */
 }
 
 .ext-button.ext-primary:hover
 {
+color: #21c0ed;
+background-color: #212427;
     /* Styles for primary buttons when the mouse is over the button */
 }
 
 .ext-button.ext-primary:focus
 {
+color: white;
+background-color: #1b72a8;
     /* Styles for primary buttons when the button has focus */
 }
 
 .ext-button.ext-primary:focus:hover
 {
+color: #21c0ed;
+background-color: #212427;
     /* Styles for primary buttons when the button has focus and the mouse is over the button */
 }
 
 .ext-button.ext-primary:active
 {
+color: #21c0ed;
+background-color: #212427;
     /* Styles for primary buttons when the button is being clicked */
     /* keep the same as primary buttons styles*/
 }
 
 .ext-button.ext-secondary
 {
+color: white;
+background-color: #1b72a8;
     /* Styles for secondary buttons */
     /* Blue */
 }
 
 .ext-button.ext-secondary:hover
 {
+color: #21c0ed;
+background-color: #212427;
     /* Styles for secondary buttons when the mouse is over the button */
     /* keep the same as secondary buttons styles*/
 }
 
 .ext-button.ext-secondary:focus
 {
+color: white;
+background-color: #1b72a8;
     /* Styles for secondary buttons when the button has focus */
      /* keep the same as secondary buttons styles*/
 }
@@ -191,6 +213,8 @@ background-color: #1b72a8;
 
 .ext-button.ext-secondary:active
 {
+color: #21c0ed;
+background-color: #212427;
     /* Styles for secondary buttons when the button is being clicked */
 }
 
