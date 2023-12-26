@@ -46,18 +46,20 @@ color: #212427;
 
 .ext-background-overlay
 {
+    opacity: 0;
     /* Styles to make changes to the background overlay that adds opacity to the background image */
 }
 
 .ext-header
 {
-height: 100px;
+    height: 150px;
     /* Styles for the header at the top of the page */
 }
 
 .ext-header-logo
 {
-height: 85px;
+    width: 578px;
+    height: 85px;
     /* Styles for the header logo at the top of the page */
 }
 
