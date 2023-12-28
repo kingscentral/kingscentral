@@ -85,6 +85,7 @@ color: #212427;
 
 .ext-banner-logo
 {
+    max-height: 72px;
     /* Styles for the banner logo displayed inside the sign-in box */
 }
 
