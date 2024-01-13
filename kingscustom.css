@@ -4764,3 +4764,7 @@ select:focus + .focus {
     padding-left: 10px;
     vertical-align: -10px;
 }
+
+.mppw-form-wrapper h1 {
+	display: none !important;
+}
