@@ -639,8 +639,8 @@
 
 /* Header */
 .mpp-card--header {
-    background: #21c0ed;
-    color: #fff;
+    background: #0f2a36;
+    color: #21c0ed;
     position: relative;
     display: flex;
     align-items: center;
@@ -693,6 +693,7 @@
     height: 160px;
     object-fit: cover;
     width: 100%;
+	color: #21c0ed;
 }
 
 /* Body */
